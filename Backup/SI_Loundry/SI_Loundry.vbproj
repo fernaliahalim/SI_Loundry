@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9C933128-DBAB-45E6-8B65-BFC6A5610E68}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SI_Loundry.My.MyApplication</StartupObject>
+    <RootNamespace>SI_Loundry</RootNamespace>
+    <AssemblyName>SI_Loundry</AssemblyName>
+    <MyType>WindowsForms</MyType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SI_Loundry.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SI_Loundry.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="bin\Debug\formStruk.Designer.vb">
+      <DependentUpon>formStruk.vb</DependentUpon>
+    </Compile>
+    <Compile Include="bin\Debug\formStruk.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bin\Debug\LapDetailAmbil.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LapDetailAmbil.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="bin\Debug\lapDetailTransaksi.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lapDetailTransaksi.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="bin\Debug\lapKasir.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lapKasir.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="bin\Debug\LapMemAlamat.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LapMemAlamat.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="bin\Debug\laporanMember.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>laporanMember.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="bin\Debug\lapStruk.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lapStruk.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFilMemAlamat.Designer.vb">
+      <DependentUpon>FormFilMemAlamat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormFilMemAlamat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formHome.Designer.vb">
+      <DependentUpon>formHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formKasir.Designer.vb">
+      <DependentUpon>formKasir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formKasir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formKonsumenMember.Designer.vb">
+      <DependentUpon>formKonsumenMember.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formKonsumenMember.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formLAmbil.Designer.vb">
+      <DependentUpon>formLAmbil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formLAmbil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLaporan.Designer.vb">
+      <DependentUpon>FormLaporan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLaporan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLaporanMember.Designer.vb">
+      <DependentUpon>FormLaporanMember.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLaporanMember.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formLKasir.Designer.vb">
+      <DependentUpon>formLKasir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formLKasir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLmember.Designer.vb">
+      <DependentUpon>FormLmember.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLmember.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formLTerimaCucian.Designer.vb">
+      <DependentUpon>formLTerimaCucian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formLTerimaCucian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formTerimaCucian.Designer.vb">
+      <DependentUpon>formTerimaCucian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formTerimaCucian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fromAmbilCucian.Designer.vb">
+      <DependentUpon>fromAmbilCucian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fromAmbilCucian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LapAmbilCucian.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LapAmbilCucian.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="memberAlamat.Designer.vb">
+      <DependentUpon>memberAlamat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="memberAlamat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleLaporanMember.vb" />
+    <Compile Include="modul_koneksi.vb" />
+    <Compile Include="modul_refresh.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="opening.Designer.vb">
+      <DependentUpon>opening.vb</DependentUpon>
+    </Compile>
+    <Compile Include="opening.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="bin\Debug\formStruk.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>formStruk.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bin\Debug\LapDetailAmbil.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LapDetailAmbil.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bin\Debug\lapDetailTransaksi.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>lapDetailTransaksi.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bin\Debug\lapKasir.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>lapKasir.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bin\Debug\LapMemAlamat.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LapMemAlamat.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bin\Debug\laporanMember.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>laporanMember.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bin\Debug\lapStruk.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>lapStruk.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFilMemAlamat.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormFilMemAlamat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formHome.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>formHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formKasir.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>formKasir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formKonsumenMember.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>formKonsumenMember.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formLAmbil.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>formLAmbil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLaporan.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormLaporan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLaporanMember.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormLaporanMember.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formLKasir.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>formLKasir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLmember.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormLmember.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formLTerimaCucian.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>formLTerimaCucian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formTerimaCucian.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>formTerimaCucian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fromAmbilCucian.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fromAmbilCucian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LapAmbilCucian.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LapAmbilCucian.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="memberAlamat.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>memberAlamat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="opening.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>opening.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

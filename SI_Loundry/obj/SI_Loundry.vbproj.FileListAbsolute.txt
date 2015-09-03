@@ -1,0 +1,52 @@
+D:\@fernalia Documents\MATKUL\SEMESTER 4\VB\Cicilan Project ^^\Bismilah\SI_Loundry\SI_Loundry\bin\Debug\SI_Loundry.exe
+D:\@fernalia Documents\MATKUL\SEMESTER 4\VB\Cicilan Project ^^\Bismilah\SI_Loundry\SI_Loundry\bin\Debug\SI_Loundry.pdb
+D:\@fernalia Documents\MATKUL\SEMESTER 4\VB\Cicilan Project ^^\Bismilah\SI_Loundry\SI_Loundry\bin\Debug\SI_Loundry.xml
+D:\@fernalia Documents\MATKUL\SEMESTER 4\VB\Cicilan Project ^^\Bismilah\SI_Loundry\SI_Loundry\obj\Debug\ResolveAssemblyReference.cache
+D:\@fernalia Documents\MATKUL\SEMESTER 4\VB\Cicilan Project ^^\Bismilah\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.formLogin.resources
+D:\@fernalia Documents\MATKUL\SEMESTER 4\VB\Cicilan Project ^^\Bismilah\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.formBarang.resources
+D:\@fernalia Documents\MATKUL\SEMESTER 4\VB\Cicilan Project ^^\Bismilah\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.formHome.resources
+D:\@fernalia Documents\MATKUL\SEMESTER 4\VB\Cicilan Project ^^\Bismilah\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.formKasir.resources
+D:\@fernalia Documents\MATKUL\SEMESTER 4\VB\Cicilan Project ^^\Bismilah\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.formKonsumen.resources
+D:\@fernalia Documents\MATKUL\SEMESTER 4\VB\Cicilan Project ^^\Bismilah\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.formKonsumenMember.resources
+D:\@fernalia Documents\MATKUL\SEMESTER 4\VB\Cicilan Project ^^\Bismilah\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.formTerimaCucian.resources
+D:\@fernalia Documents\MATKUL\SEMESTER 4\VB\Cicilan Project ^^\Bismilah\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.fromAmbilCucian.resources
+D:\@fernalia Documents\MATKUL\SEMESTER 4\VB\Cicilan Project ^^\Bismilah\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.Resources.resources
+D:\@fernalia Documents\MATKUL\SEMESTER 4\VB\Cicilan Project ^^\Bismilah\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.vbproj.GenerateResource.Cache
+D:\@fernalia Documents\MATKUL\SEMESTER 4\VB\Cicilan Project ^^\Bismilah\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.exe
+D:\@fernalia Documents\MATKUL\SEMESTER 4\VB\Cicilan Project ^^\Bismilah\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.xml
+D:\@fernalia Documents\MATKUL\SEMESTER 4\VB\Cicilan Project ^^\Bismilah\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.pdb
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.exe
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.xml
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.pdb
+D:\untuk  ferna\SI_Loundry\SI_Loundry\bin\Debug\SI_Loundry.exe
+D:\untuk  ferna\SI_Loundry\SI_Loundry\bin\Debug\SI_Loundry.pdb
+D:\untuk  ferna\SI_Loundry\SI_Loundry\bin\Debug\SI_Loundry.xml
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\ResolveAssemblyReference.cache
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.formLogin.resources
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.formHome.resources
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.formKasir.resources
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.formKonsumenMember.resources
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.formTerimaCucian.resources
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.fromAmbilCucian.resources
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.Resources.resources
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.vbproj.GenerateResource.Cache
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.opening.resources
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.laporanMember.rpt
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.FormLaporanMember.resources
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.FormLaporan.resources
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.FormLmember.resources
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.FormFilMemAlamat.resources
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.LapMemAlamat.rpt
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.memberAlamat.resources
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.LapDetailAmbil.rpt
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.lapDetailTransaksi.rpt
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.formLTerimaCucian.resources
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.LapAmbilCucian.rpt
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.formLAmbil.resources
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.lapKasir.rpt
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.formLKasir.resources
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.lapStruk.rpt
+D:\untuk  ferna\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.formStruk.resources
+D:\@fernalia Documents\MATKUL\SEMESTER 4\VB\Cicilan Project ^^\SISTEM INFORMASI LOUNDRY\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.exe
+D:\@fernalia Documents\MATKUL\SEMESTER 4\VB\Cicilan Project ^^\SISTEM INFORMASI LOUNDRY\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.xml
+D:\@fernalia Documents\MATKUL\SEMESTER 4\VB\Cicilan Project ^^\SISTEM INFORMASI LOUNDRY\SI_Loundry\SI_Loundry\obj\Debug\SI_Loundry.pdb
